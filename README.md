@@ -1,4 +1,4 @@
-# Quantum Dino — Amplitude Amplification Action Based Selection
+# Quantum Dino — Amplitude Amplification Action Based Selection for Playing 2D Platformers
 Playing the "No Internet Google Chrome Dinosaur Game" with a quantum computer!
 
 Keywords: Quantum Reinforcement Learning, Quantum Error Correction, Amplitude Amplification
