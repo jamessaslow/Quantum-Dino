@@ -8,4 +8,11 @@ In video games, we constantly pick moves we need to perform from a given moveset
 
 Therefore, in this project, I develop a way to play Google's "No Internet Dino Game", using a modified parameterized Grover's Algorithm. I use Amplitude Amplification Action Based Selection to select the optimal move from a moveset at a given frame of the video game.
 
+For a simple move set of length two: ["Jump", "Wait"], the control schematic of the game looks like
 
+
+With a quantum circuit architecture:
+
+![image](https://github.com/user-attachments/assets/bc8ce485-85c2-4051-9483-9c8ffa390b9a)
+
+which is just an error-corrected $R_{y}$ gate.
