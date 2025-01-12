@@ -16,7 +16,7 @@ With a quantum circuit architecture:
 
 ![image](https://github.com/user-attachments/assets/bc8ce485-85c2-4051-9483-9c8ffa390b9a)
 
-which is just an error-corrected $R_{y}$ gate.
+which is just an error-corrected $R_{y}$ gate. Error correction is necesary here because not only are quantum computers noisy, but if the dino makes a 'jump' move by accident when it really should have done a "wait" move, that mistake could end the entire game. Therefore, when a move is selected, the error corrected code essentially triple checks if that was really the optimal move in the move set for a given frame.
 
 
 Download and run the *dino_game_simple_QNN.ipynb* to watch the quantum circuit play the Dino Game in the PyGame interface!
